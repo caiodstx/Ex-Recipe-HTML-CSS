@@ -1,0 +1,64 @@
+body {
+    margin: 2% 10% 2% 10%;
+}
+
+header, main, footer {
+    border: 1px solid red;
+}
+
+.ingredients-time-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#ingredients {
+    border: 1px solid red;
+    margin-left: 13%;
+    width: 50%;
+    padding: 2%;
+}
+
+#ingredients label {
+    float: top;
+    font-size: 5rem;
+}
+
+#ingredients ul {
+    margin: 0;
+    list-style: none;
+    float: bottom;
+}
+
+#ingredients li {
+    padding: 1%;
+    font-size: 1.5rem;
+}
+
+#time {
+    border: 1px solid red;
+    border-radius: 15px;
+    margin-right: 13%;
+    height: 200px;
+}
+
+#time ul {
+    list-style: none;
+}
+
+#time label {
+    float: left;
+    font-size: 5rem;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+
+.banner img {
+    border-radius: 15px;
+    width: 75%;
+    height: 30%;
+}
